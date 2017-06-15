@@ -1,0 +1,9 @@
+- name: American Buildings Company
+  logo_path: /assets/images/partners/ab.png
+  url: 'http://www.americanbuildings.com/'
+- name: B&C Steel
+  logo_path: /assets/images/partners/bc.jpg
+  url: 'http://www.b-csteel.com/'
+- name: Ceco Building Systems
+  logo_path: /assets/images/partners/cbs.jpg
+  url: 'http://www.cecobuildings.com/'

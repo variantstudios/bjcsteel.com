@@ -1,0 +1,49 @@
+.footer-wrapper {
+  border-top: solid 10px $color-one;
+  background: $site-bg;
+  @include clearfix;
+  width: 100%;
+}
+footer.wrap {
+  font-size: 95%;
+  .footer-top {
+    background-color: #000;
+    overflow: hidden;
+    color: #fff;
+  }
+  .footer-bottom {
+    color: #fff;
+    padding: 1.5em 1.5em 2em;
+    p {
+      margin: 0;
+      font-size: 90%;
+    }
+    a, h5 {
+      color: #fff;
+      text-decoration: none;
+    }
+    .footer-contact, .footer-info, .footer-right {
+      padding-bottom: 1em;
+      h4, h5 {
+        margin-top: 0;
+      }
+    }
+    .footer-contact h4 {
+      text-transform: uppercase;
+    }
+    .footer-right p {
+      text-align: right;
+    }
+    @include breakpoint($desktop, $no-query: '.no-mq') {
+      .footer-contact {
+        @include grid-span(3, 1);
+      }
+      .footer-info {
+        @include grid-span(3, 4);
+      }
+      .footer-right {
+        @include grid-span(6, 7);
+      }
+    }
+  }
+}

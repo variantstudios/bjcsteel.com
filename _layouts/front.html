@@ -1,0 +1,58 @@
+---
+layout: default
+---
+<main class="front">
+  <section class="content-wrapper wrap">
+    <div class="first front-section">
+      <div class="image-wrap">
+        <img src="{{page.section_one.photo_path}}" src="{{page.section_one.title}}" alt="{{ page.title }}">
+      </div>
+      <h3>{{page.section_one.title}}</h3>
+      <p>{{page.section_one.content}}</p>
+      <p><a class="all-link" href="{{page.section_one.link}}">{{page.section_one.link_text}}</a></p>
+    </div>
+    <div class="second front-section">
+      <div class="image-wrap">
+        <img src="{{page.section_two.photo_path}}" src="{{page.section_two.title}}" alt="{{ page.title }}">
+      </div>
+      <h3>{{page.section_two.title}}</h3>
+      <p>{{page.section_two.content}}</p>
+      <p><a class="all-link" href="{{page.section_two.link}}">{{page.section_two.link_text}}</a></p>
+    </div>
+    <div class="third front-section">
+      <div class="image-wrap">
+        <img src="{{page.section_three.photo_path}}" src="{{page.section_three.title}}" alt="{{ page.title }}">
+      </div>
+      <h3>{{page.section_three.title}}</h3>
+      <ul>
+        {% for item in site.data.project_categories %}
+          <li>
+            <img src="/assets/images/arrow.png" alt="Arrow">
+            <a href="{{ item.permalink }}">{{ item.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+      {% for item in site.projects %}
+        {% if forloop.first %}
+          <div class="latest-project">
+            <h5>Latest Project.</h5>
+            <h6><a href="{{ item.url }}">{{ item.title }}</a></h6>
+            <figure>
+              <img src="{{ item.main_image_path }}" alt="{{ item.title }}">
+              <figcaption>
+                <p><b>Location: </b>{{ item.location }}</p>
+                <p><b>Owner: </b>{{ item.owner_name }}</p>
+                <p><b>Size: </b>{{ item.square_feet }} sq ft</p>
+                <p><b>General Contractor: </b>{{ item.contractor_name }}</p>
+                <p><b>Building Manufacturer: </b>{{ item.building_manufacturer }}</p>
+                <div class="proj-link"><a href="{{ item.url }}">More Info.</a></div>
+              </figcaption>
+            </figure>
+          </div>
+          {% break %}
+        {% endif %}
+      {% endfor %}
+      <p><a class="all-link" href="{{page.section_three.link}}">{{page.section_three.link_text}}</a></p>
+    </div>
+  </section>
+</main>

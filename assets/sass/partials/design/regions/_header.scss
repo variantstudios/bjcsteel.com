@@ -1,0 +1,76 @@
+.header-wrapper {
+  position: relative;
+  z-index: 2;
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+    &:after {
+      background: url('/assets/images/rectangle.svg') no-repeat top left;
+      background-size: cover;
+      content: "";
+      width: 105%;
+      height: 42px;
+      bottom: -42px;
+      left: -15px;
+      position: absolute;
+      z-index: 2;
+      display: inline-block;
+    }
+  }
+}
+header.wrap {
+  @include clearfix;
+  margin: 0 auto;
+  z-index: 2;
+  position: static;
+}
+.header-top {
+  @include clearfix;
+  z-index: 3;
+  position: relative;;
+  background: rgba($black, .8);
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+    height: 140px;
+  }
+  @include breakpoint($lg-desktop, $no-query: '.no-mq') {
+    &:before, &:after {
+      content: "";
+      background: rgba($black, .8);
+      width: 1000px;
+      height: 140px;
+    }
+    &:before {
+      float: left;
+      margin: 0 1px 0 -1000px;
+    }
+    &:after {
+      float: right;
+      margin-right: -1000px;
+      margin-top: -140px;
+    }
+  }
+}
+.nav-header {
+  z-index: 1;
+  @include breakpoint($tablet, $no-query: ".no-mq") {
+    float: none;
+    top: 0;
+    padding: 0 5em;
+    transition: top .5s ease-in-out;
+    text-align: center;
+  }
+}
+.logo {
+  text-align: center;
+  padding: 1em;
+  background: #000;
+  @include breakpoint($tablet, $no-query: ".no-mq") {
+      @include grid-span(4,1,$gutter:0);
+      padding-top: 0;
+  }
+}
+.main-nav {
+  @include breakpoint($tablet, $no-query: ".no-mq") {
+    @include grid-span(8,5);
+    height: 88px;
+    margin-top: 1em;
+  }
+}

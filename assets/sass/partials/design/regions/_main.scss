@@ -1,0 +1,36 @@
+.wrap {
+  max-width: $container_width;
+  margin: 0 auto;
+}
+.content-wrap { @include clearfix; }
+.page-header-wrapper {
+  width: 100%;
+}
+.default-content-wrapper {
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+    margin-top: 13em !important;
+  }
+}
+.page-header {
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+    @include grid-span(12, 1);
+    background-color: #E4E4E4;
+  }
+}
+main {
+  @include clearfix;
+  padding: 1.5em;
+  background: #fff;
+  box-shadow: 0 0 20px rgba($black, .7);
+  z-index: 3;
+  position: relative;
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+    padding: 2em;
+    .content-wrapper.partial-width {
+      @include grid-span(9, 1);
+    }
+    .sidebar {
+      @include grid-span(3, 10);
+    }
+  }
+}

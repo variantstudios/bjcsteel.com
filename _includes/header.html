@@ -1,0 +1,25 @@
+<header itemscope class="wrap clearfix">
+  <div class="header-top">
+    <div class="site-name logo">
+      <a href="/"><img src="/assets/images/logo.svg" alt="Big Johnson Construction"></a>
+    </div>
+    <div class="menu-btn">Open Menu</div>
+    <nav class="main-nav">
+      {% include nav.html nav=site.data.menu %}
+    </nav>
+  </div>
+  {% if page.url == "/index.html" %}
+    <div class="home-hero">
+      <div class="flexslider">
+        <ul class="slides">
+          {% assign sliders = page.slider %}
+          {% for slider in sliders %}
+            <li><img src="{{slider.slider_image_path}}" alt="{{ page.title }}"></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  {% else if %}
+    <div class="hero"></div>
+  {% endif %}
+</header>

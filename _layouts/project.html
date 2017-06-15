@@ -1,0 +1,43 @@
+---
+layout: default
+---
+<main>
+  <section class="content-wrapper wrap project partial-width">
+    <header>
+      <img src="{{ page.main_image_path }}" alt="{{ page.title }}">
+      <h1 class="pagetitle">{{ page.title }}</h1>
+      <ul class="proj-subtitle">
+        {% if page.location %}<li class="proj-location"><b>Location: </b>{{ page.location }}</li>{% endif %}
+        {% if page.owner_name %}<li class="proj-owner"><b>Owner: </b>{{ page.owner_name }}</li>{% endif %}
+        {% if page.square_feet %}<li class="proj-sq-feet"><b>Size: </b>{{ page.square_feet }} sq ft</li>{% endif %}
+        {% if page.contractor_name %}<li class="proj-contractor"><b>General Contractor: </b>{{ page.contractor_name }}</li>{% endif %}
+        {% if page.building_manufacturer %}<li class="proj-manufacturer"><b>Building Manufacturer: </b>{{ page.building_manufacturer }}</li>{% endif %}
+      </ul>
+    </header>
+    <article class="proj-text">
+      <p>{{ page.content }}</p>
+    </article>
+    <footer>
+      {% if page.photo_gallery %}
+        <article class="proj-gallery">
+          <h4>Photo Gallery:</h4>
+          {% for item in page.photo_gallery %}
+            <figure itemscope>
+              <a class="gallery-item" href="{{ item.large_image_path }}">
+                <img class="gallery-img lrg" src="{{ item.thumbnail_image_path }}" alt="{{ page.title }}" itemprop="image">
+              </a>
+            </figure>
+          {% endfor %}
+        </article>
+      {% endif %}
+      {% if page.testimonial %}
+        <article class="testimonial">
+          <h4>Testimonial:</h4>
+          <p class="testimonial-text">"{{ page.testimonial }}"</p>
+          <p class="testimonial-author"> - {{ page.testimonial_credit }}</p>
+        </article>
+      {% endif %}
+    </footer>
+  </section>
+  {% include sidebar.html %}
+</main>

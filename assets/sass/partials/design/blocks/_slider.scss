@@ -1,0 +1,71 @@
+.home-hero {
+	@include breakpoint($tablet, $no-query: ".no-mq") {
+		height: 642px;
+		background: #000 !important;
+		position: absolute;
+		overflow: hidden;
+		top: 0;
+		width: 100%;
+		left: 0;
+		z-index: 1;
+	}
+	&:after {
+		background: $site-bg url('/assets/images/rectangle.svg') no-repeat top left;
+		background-size: cover;
+		content: "";
+		width: 100%;
+		height: 42px;
+		bottom: 0;
+		left: 0;
+		position: absolute;
+		display: inline-block;
+		box-shadow: 0 -28px 45px rgba(0,0,0,.9);
+		transform: scaleX(-1);
+		filter: FlipH;
+		z-index: 2;
+	}
+	.flex-control-nav {
+		bottom: 5em;
+		width: 30%;
+		margin: 0 35%;
+		padding: 0;
+		text-align: center;
+		@include breakpoint($tablet, $no-query: ".no-mq") {
+			top: 30em;
+		}
+		li {
+			z-index: 3;
+	    position: relative;
+			a {
+				z-index: 4;
+		    position: relative;
+				background: $white;
+				transition: background .2s ease-in;
+				&:hover {
+					background: rgba($white, .7);
+				}
+				&.flex-active {
+					background: $color-one;
+				}
+			}
+		}
+	}
+	.flex-direction-nav {
+		.flex-nav-prev,	.flex-nav-next {
+			position: absolute;
+			top: 7em;
+			@include breakpoint($tablet, $no-query: ".no-mq") {
+				top: 22rem;
+			}
+		}
+		.flex-nav-prev {
+			left: 10px;
+		}
+		.flex-nav-next {
+			right: 10px;
+		}
+		a:before {
+			line-height: 40px;
+		}
+	}
+}

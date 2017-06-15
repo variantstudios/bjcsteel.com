@@ -1,0 +1,25 @@
+.hero {
+	@include breakpoint($tablet, $no-query: ".no-mq") {
+		height: 378px;
+		background: #000 !important;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		left: 0;
+		z-index: -1;
+		&:before {
+			background: url('/assets/images/rectangle.svg') no-repeat top left;
+			background-size: cover;
+			content: "";
+			width: 105%;
+			height: 42px;
+			bottom: -42px;
+			left: -12px;
+			position: absolute;
+			display: inline-block;
+			box-shadow: 0 -28px 45px rgba(0,0,0,.9);
+			transform: scaleX(-1);
+			filter: FlipH;
+		}
+	}
+}

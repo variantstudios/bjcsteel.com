@@ -1,0 +1,27 @@
+---
+layout: page-sidebar
+---
+
+<section class="team-wrap">
+  {% assign items = site.data.team | sort: 'weight' %}
+  {% for item in items %}
+    <article class="team-member">
+      {% if item.image_path != "" %}
+        <img src="{{ item.image_path }}" alt="{{ item.name }}">
+        <div class="team-right">
+          <header>
+            <h4>{{ item.name }}</h4>
+            <div class="team-title">{{ item.position }}</div>
+          </header>
+          <p>{{ item.bio }}</p>
+        </div>
+      {% else %}
+        <header>
+          <h4>{{ item.name }}</h4>
+          <div class="team-title">{{ item.position }}</div>
+        </header>
+        <p>{{ item.bio }}</p>
+      {% endif %}
+    </article>
+  {% endfor %}
+</section>
