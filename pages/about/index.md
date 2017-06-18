@@ -2,7 +2,9 @@
 layout: page-sidebar
 title: About Us
 permalink: /about/
-header_image_path: /assets/images/sub-page-headers/Designs_By_Sundown_View.jpg
+header_image_path: /assets/images/headers/about.jpg
+_comments:
+  header_image_path: "The image should be a jpg scaled and cropped to 1200px wide by 350px tall."
 ---
 
 Founded in 2000 by Abe Johnson, Big Johnson Construction began life in the pre-engineered metal building industry primarily as a building erector, servicing a handful of contractors throughout America’s heartland. Having honed his skills working his way up the ranks in the field, Abe saw an opportunity to take what he had learned and combine it with a passion to provide a service unparalleled by any other erection company serving the metal building market at the time. It was a service that would be built on three core values, honesty, integrity and relationships. 
