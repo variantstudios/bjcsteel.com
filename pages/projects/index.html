@@ -14,7 +14,11 @@ layout: page
   {% assign items = paginator.posts  %}
   {% for item in items %}
     <article class="project">
-      <a href="{{ item.url }}"><img src="{{ item.main_image_path }}" alt="{{ item.title }}" /></a>
+      <a href="{{ item.url }}">
+         {% for item in item.photo_gallery limit:1 %}
+        <img src="{{ item.thumbnail_image_path }}" alt="{{ page.title }}">
+        {% endfor %}
+      </a>
       <div class="project-right">
         <header>
           <h4><a href="{{ item.url }}">{{ item.title }}</a></h4>

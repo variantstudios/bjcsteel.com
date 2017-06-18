@@ -4,7 +4,9 @@ layout: default
 <main>
   <section class="content-wrapper wrap project partial-width">
     <header>
-      <img src="{{ page.main_image_path }}" alt="{{ page.title }}">
+      {% for item in page.photo_gallery limit:1 %}
+      <img src="{{ item.large_image_path }}" alt="{{ page.title }}">
+      {% endfor %}
       <h1 class="pagetitle">{{ page.title }}</h1>
       <ul class="proj-subtitle">
         {% if page.location %}<li class="proj-location"><b>Location: </b>{{ page.location }}</li>{% endif %}
@@ -19,23 +21,16 @@ layout: default
       <p>{{ page.content }}</p>
     </article>
     <footer>
-      {% if page.photo_gallery %}
+      {% if page.photo_gallery.size > 1 %}
         <article class="proj-gallery">
           <h4>Photo Gallery:</h4>
-          {% for item in page.photo_gallery %}
+          {% for item in page.photo_gallery limit:1 offset: 1 %}
             <figure itemscope>
               <a class="gallery-item" href="{{ item.large_image_path }}">
                 <img class="gallery-img lrg" src="{{ item.thumbnail_image_path }}" alt="{{ page.title }}" itemprop="image">
               </a>
             </figure>
           {% endfor %}
-        </article>
-      {% endif %}
-      {% if page.testimonial %}
-        <article class="testimonial">
-          <h4>Testimonial:</h4>
-          <p class="testimonial-text">"{{ page.testimonial }}"</p>
-          <p class="testimonial-author"> - {{ page.testimonial_credit }}</p>
         </article>
       {% endif %}
     </footer>
