@@ -1889,8 +1889,8 @@ header.front-header {
   padding: 5px;
 }
 .project footer .proj-gallery figure {
-  width: 185px;
-  height: 185px;
+  width: 265px;
+  height: 190px;
   overflow: hidden;
   -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
           box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);

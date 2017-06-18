@@ -21,22 +21,22 @@ permalink: pretty
 # Pagination V2 Settings: https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
 pagination:
   enabled: true
-  per_page: 2
+  per_page: 4
   permalink: '/:num/'
   title: ':title - page :num'
   limit: 0
   sort_field: 'title'
   sort_reverse: false
   # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
-  debug: false
+  debug: true
   # The default document collection to paginate if nothing is specified ('posts' is default)
-  #collection: 'posts'
+  collection: 'projects'
+
 
 #Collections
 collections:
   projects:
     output: true
-    permalink: /projects/:title/
 
 defaults:
   -
@@ -45,6 +45,7 @@ defaults:
     values:
       layout: project
       title:
+      header_image_path: /assets/images/headers/projects.jpg
 
 # Cloudinary URL - something like: https://res.cloudinary.com/domain-com/
 cloudinaryurl: ""

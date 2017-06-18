@@ -2,7 +2,9 @@
 layout: page
 title: "Services"
 permalink: /services/
-header_image_path: "/assets/images/sub-page-headers/Designs_By_Sundown_View.jpg"
+header_image_path: "/assets/images/headers/services.jpg"
+_comments:
+  header_image_path: "The image should be a jpg scaled and cropped to 1200px wide by 350px tall."
 ---
 **Erection Only:** Founded as a pre-engineered erection company, Big Johnson Construction is committed to the continuing development of the niche that helped make the company what it is today. As a member of the Metal Building Contract Erectors Association, Big Johnson Construction has established itself as an industry leader. Whether you have a basic box building or a complex commercial project, Big Johnson Construction has a crew capable and ready to tackle the task given no matter the building manufacturer or where in the country you might want it constructed.   
 

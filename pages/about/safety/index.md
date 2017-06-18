@@ -2,7 +2,9 @@
 layout: page-sidebar
 title: Safety
 permalink: /about/safety/
-header_image_path: /assets/images/sub-page-headers/Designs_By_Sundown_View.jpg
+header_image_path: /assets/images/headers/safety.jpg
+_comments:
+  header_image_path: "The image should be a jpg scaled and cropped to 1200px wide by 350px tall."
 ---
 It is the policy of Big Johnson Construction to provide our employees and customer a safe and healthful work environment. We believe that our employees are our most valued asset and that the preservation of safety and health is of the utmost importance. 
 

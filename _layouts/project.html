@@ -1,6 +1,18 @@
 ---
 layout: default
 ---
+---
+title: "CO Fire Aviation"
+location: "Fort Morgan, CO"
+owner: "CO Fire Aviation"
+general_contractor: "Big Johnson Construction (Fort Morgan, CO)"
+architect: "n/a"
+project_square_footage: "4,800"
+building_manufacturer: "Ceco Building Systems"
+project_information: "BJC Full general contracted furnished and erected project."
+
+
+---
 <main>
   <section class="content-wrapper wrap project partial-width">
     <header>
@@ -8,9 +20,10 @@ layout: default
       <h1 class="pagetitle">{{ page.title }}</h1>
       <ul class="proj-subtitle">
         {% if page.location %}<li class="proj-location"><b>Location: </b>{{ page.location }}</li>{% endif %}
-        {% if page.owner_name %}<li class="proj-owner"><b>Owner: </b>{{ page.owner_name }}</li>{% endif %}
-        {% if page.square_feet %}<li class="proj-sq-feet"><b>Size: </b>{{ page.square_feet }} sq ft</li>{% endif %}
-        {% if page.contractor_name %}<li class="proj-contractor"><b>General Contractor: </b>{{ page.contractor_name }}</li>{% endif %}
+        {% if page.owner %}<li class="proj-owner"><b>Owner: </b>{{ page.owner }}</li>{% endif %}
+        {% if page.general_contractor %}<li class="proj-contractor"><b>General Contractor: </b>{{ page.general_contractor }}</li>{% endif %}
+        {% if page.architect %}<li class="proj-architect"><b>Architect: </b>{{ page.architect }}</li>{% endif %}
+        {% if page.project_square_footage %}<li class="proj-sq-feet"><b>Square Footage: </b>{{ page.project_square_footage }}</li>{% endif %}
         {% if page.building_manufacturer %}<li class="proj-manufacturer"><b>Building Manufacturer: </b>{{ page.building_manufacturer }}</li>{% endif %}
       </ul>
     </header>
