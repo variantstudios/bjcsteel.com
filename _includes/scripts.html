@@ -2,7 +2,7 @@
 <script>window.jQuery || document.write('<script src="/assets/js/prod/jquery-1-11-1.min.js"><\/script>')</script>
 <script src="/assets/js/prod/scripts.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
-{% if page.url != "/index.html" %}
+{% if page.url != "/" %}
   <script>
   $(document).ready(function() {
     $(".hero").backstretch(["{{ page.header_image_path }}"], {fade: "normal"});

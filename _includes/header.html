@@ -8,12 +8,12 @@
       {% include nav.html nav=site.data.menu %}
     </nav>
   </div>
-  {% if page.url == "/index.html" %}
+  {% if page.url == "/" %}
     <div class="home-hero">
       <div class="flexslider">
         <ul class="slides">
           {% assign sliders = page.slider %}
-          {% for slider in sliders %}
+          {% for slider in page.slider %}
             <li><img src="{{slider.slider_image_path}}" alt="{{ page.title }}"></li>
           {% endfor %}
         </ul>

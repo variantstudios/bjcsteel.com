@@ -8,12 +8,8 @@ general_contractor: "Private Use"
 architect: "n/a"
 project_square_footage: "4,200"
 building_manufacturer: "Ceco Building Systems"
-main_image_path: "/assets/images/projects/large/test1.jpg"
-header_image_path: "/assets/images/sub-page-headers/Designs_By_Sundown_View.jpg"
 photo_gallery:
-  - thumbnail_image_path: "/assets/images/projects/small/test1.jpg"
-    large_image_path: "/assets/images/projects/large/test1.jpg"
-  - thumbnail_image_path: "/assets/images/projects/small/test2.jpg"
-    large_image_path: "/assets/images/projects/large/test2.jpg"
+  - thumbnail_image_path: "/assets/images/projects/small/C-Millar-A.jpg"
+    large_image_path: "/assets/images/projects/large/C-Millar-A.jpg"
 ---
 BJC Furnished and erected.

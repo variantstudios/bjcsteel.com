@@ -8,12 +8,10 @@ general_contractor: "Big Johnson Construction (Fort Morgan, CO)"
 architect: "n/a"
 project_square_footage: "4,800"
 building_manufacturer: "Ceco Building Systems"
-main_image_path: "/assets/images/projects/large/test1.jpg"
-header_image_path: "/assets/images/sub-page-headers/Designs_By_Sundown_View.jpg"
 photo_gallery:
-  - thumbnail_image_path: "/assets/images/projects/small/test1.jpg"
-    large_image_path: "/assets/images/projects/large/test1.jpg"
-  - thumbnail_image_path: "/assets/images/projects/small/test2.jpg"
-    large_image_path: "/assets/images/projects/large/test2.jpg"
+  - thumbnail_image_path: "/assets/images/projects/small/CO-Fire-A.jpg"
+    large_image_path: "/assets/images/projects/large/CO-Fire-A.jpg"
+  - thumbnail_image_path: "/assets/images/projects/small/CO-Fire-B.jpg"
+    large_image_path: "/assets/images/projects/large/CO-Fire-B.jpg"
 ---
 BJC Full general contracted furnished and erected project.

@@ -122,7 +122,7 @@
     @include breakpoint($tablet, $no-query: '.no-mq') {
       @include clearfix;
       .proj-gallery {
-        @include grid-span(6, 1);
+        //@include grid-span(6, 1);
       }
       .testimonial {
         @include grid-span(6, 7);
