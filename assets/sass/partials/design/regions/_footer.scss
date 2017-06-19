@@ -33,16 +33,21 @@ footer.wrap {
     }
     .footer-right p {
       text-align: right;
+       margin: 10px 0 0 0;
+    }
+    .footer-right img {
+      margin: 0 0 0 15px;
     }
     @include breakpoint($desktop, $no-query: '.no-mq') {
       .footer-contact {
-        @include grid-span(3, 1);
+        @include grid-span(2, 1);
       }
       .footer-info {
-        @include grid-span(3, 4);
+        @include grid-span(3, 3);
       }
       .footer-right {
-        @include grid-span(6, 7);
+        @include grid-span(7, 6);
+        text-align: right;
       }
     }
   }
