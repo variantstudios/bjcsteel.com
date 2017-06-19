@@ -8,6 +8,7 @@ general_contractor: "Ancon II Constructors (Greeley, CO)"
 architect: "n/a"
 project_square_footage: 10,317
 building_manufacturer: "Ceco Building Systems"
+completion_date: 2015-04-22 01:00:00
 photo_gallery:
   - thumbnail_image_path: "/assets/images/projects/small/Ancon-C9-A.jpg"
     large_image_path: "/assets/images/projects/large/Ancon-C9-A.jpg"
