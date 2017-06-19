@@ -1487,7 +1487,6 @@ main, header, footer, section, aside {
   padding: 0 0 .5em;
 }
 .front-section .image-wrap {
-  max-height: 200px;
   width: 100%;
   overflow: hidden;
 }
