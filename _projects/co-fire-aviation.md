@@ -8,6 +8,7 @@ general_contractor: "Big Johnson Construction (Fort Morgan, CO)"
 architect: "n/a"
 project_square_footage: "4,800"
 building_manufacturer: "Ceco Building Systems"
+completion_date: 2015-05-28 01:00:00
 photo_gallery:
   - thumbnail_image_path: "/assets/images/projects/small/CO-Fire-A.jpg"
     large_image_path: "/assets/images/projects/large/CO-Fire-A.jpg"
