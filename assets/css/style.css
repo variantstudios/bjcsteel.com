@@ -705,7 +705,7 @@ ul.pager li a:visited {
 
 @media (min-width: 60em) {
   .hero {
-    height: 378px;
+    height: 475px;
     background: #000 !important;
     position: absolute;
     top: 0;
@@ -733,7 +733,7 @@ ul.pager li a:visited {
   }
 }
 .no-mq .hero {
-  height: 378px;
+  height: 475px;
   background: #000 !important;
   position: absolute;
   top: 0;
@@ -1322,11 +1322,11 @@ header.wrap:after {
 
 @media (min-width: 60em) {
   .default-content-wrapper {
-    margin-top: 13em !important;
+    margin-top: 16em !important;
   }
 }
 .no-mq .default-content-wrapper {
-  margin-top: 13em !important;
+  margin-top: 16em !important;
 }
 
 @media (min-width: 60em) {
@@ -1586,12 +1586,8 @@ main, header, footer, section, aside {
 .third ul {
   list-style-type: none;
 }
-.third img {
-  margin: 0 0 -3px;
-}
 .third a {
   display: inline-block;
-  padding-left: 10px;
 }
 .third .latest-project {
   padding: 0 1.5em;
@@ -1608,7 +1604,6 @@ main, header, footer, section, aside {
 }
 .third .latest-project figure {
   margin: 0;
-  text-align: center;
 }
 .third .latest-project figure:after {
   content: "";
@@ -1616,9 +1611,10 @@ main, header, footer, section, aside {
   clear: both;
 }
 .third .latest-project figure img {
-  float: right;
-  width: 40%;
-  margin: 0 auto .5em;
+  width: 100%;
+}
+.third .latest-project figure figcaption {
+  margin: 10px 0 0 0;
 }
 .third .latest-project figure figcaption p {
   padding: 0;
@@ -1633,7 +1629,7 @@ main, header, footer, section, aside {
   transition: background .2s ease-in;
   float: right;
   padding: 5px 8px;
-  margin: 0 0 1em;
+  margin: 1em 0;
 }
 .third .latest-project figure .proj-link a {
   color: #fff;
@@ -1956,6 +1952,21 @@ header.front-header {
   margin-left: 0;
   margin-right: 0;
   clear: none;
+}
+
+ul.pager {
+  border-top: 1px solid #e2e2e2;
+}
+ul.pager:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ul.pager .left {
+  float: left;
+}
+ul.pager .right {
+  float: right;
 }
 
 .team-wrap {

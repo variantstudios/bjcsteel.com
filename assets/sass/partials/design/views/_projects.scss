@@ -130,3 +130,13 @@
     }
   }
 }
+ul.pager {
+  border-top: 1px solid #e2e2e2;
+  @include clearfix;
+  .left {
+    float: left;
+  }
+  .right {
+    float: right;
+  }
+}

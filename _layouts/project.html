@@ -34,6 +34,18 @@ layout: default
         </article>
       {% endif %}
     </footer>
+      <div class="wrap">
+            <ul class="pager">
+                {% if page.previous.url %}
+                <li class="previous left">
+                    <a class="prev" href="{{page.previous.url}}">&laquo; Previous Project</a> {% endif %} {% if page.next.url %}
+                </li>{% endif %} {% if page.next.url %}
+                <li class="next right">
+                    <a class="next" href="{{page.next.url}}">Next Project &raquo;</a>
+                </li>
+            </ul>
+            {% endif %}
+        </div>
   </section>
   {% include sidebar.html %}
 </main>
