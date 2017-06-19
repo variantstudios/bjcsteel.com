@@ -8,7 +8,7 @@ general_contractor: 'Ancon II Constructors (Greeley, CO)'
 architect: n/a
 project_square_footage: '8,100'
 building_manufacturer: 'B & C Steel Corporation'
-completion_date: 2015-03-02 00:00:00
+completion_date: 2015-03-02 01:00:00
 photo_gallery:
   - thumbnail_image_path: /assets/images/projects/small/Ancon-C1-A.jpg
     large_image_path: /assets/images/projects/large/Ancon-C1-A.jpg
