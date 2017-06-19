@@ -1,6 +1,6 @@
 <aside class="sidebar">
   {% if page.path contains 'project' %}
-    <article class="project-block editable">
+    <article class="project-block">
       <h4>View Projects:</h4>
       <ul>
         {% for item in site.data.project_categories %}
@@ -8,6 +8,15 @@
         {% endfor %}
         <li><a href="/projects/">Return to All Projects</a></li>
       </ul>
+    </article>
+    <article class="partner-block">
+      <h4>Partners:</h4>
+      <div class="partners">
+        {% assign items = site.data.partners | sort: 'weight' %}
+        {% for item in items %}
+          <a href="{{ item.url }}" class="partner-link"><img src="{{ item.logo_path }}" alt="Partner Logo" itemprop="image"></a>
+        {% endfor %}
+      </div>
     </article>
     {% comment %}
       {% if page.partners %}

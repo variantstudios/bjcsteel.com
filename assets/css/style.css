@@ -1083,56 +1083,62 @@ footer.wrap .footer-bottom .footer-contact h4 {
 }
 footer.wrap .footer-bottom .footer-right p {
   text-align: right;
+  margin: 10px 0 0 0;
+}
+footer.wrap .footer-bottom .footer-right img {
+  margin: 0 0 0 15px;
 }
 @media (min-width: 61.25em) {
   footer.wrap .footer-bottom .footer-contact {
-    -sgs-span-settings: ("span": 3, "location": 1, "grid": 12, "gutter": 0.33333, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
-    width: 23.40426%;
+    -sgs-span-settings: ("span": 2, "location": 1, "grid": 12, "gutter": 0.33333, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+    width: 14.89362%;
     float: left;
     margin-right: -100%;
     margin-left: 0;
     clear: none;
   }
   footer.wrap .footer-bottom .footer-info {
-    -sgs-span-settings: ("span": 3, "location": 4, "grid": 12, "gutter": 0.33333, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+    -sgs-span-settings: ("span": 3, "location": 3, "grid": 12, "gutter": 0.33333, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
     width: 23.40426%;
     float: left;
     margin-right: -100%;
-    margin-left: 25.53191%;
+    margin-left: 17.02128%;
     clear: none;
   }
   footer.wrap .footer-bottom .footer-right {
-    -sgs-span-settings: ("span": 6, "location": 7, "grid": 12, "gutter": 0.33333, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
-    width: 48.93617%;
+    -sgs-span-settings: ("span": 7, "location": 6, "grid": 12, "gutter": 0.33333, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+    width: 57.44681%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none;
+    text-align: right;
   }
 }
 .no-mq footer.wrap .footer-bottom .footer-contact {
-  -sgs-span-settings: ("span": 3, "location": 1, "grid": 12, "gutter": 0.33333, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
-  width: 23.40426%;
+  -sgs-span-settings: ("span": 2, "location": 1, "grid": 12, "gutter": 0.33333, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+  width: 14.89362%;
   float: left;
   margin-right: -100%;
   margin-left: 0;
   clear: none;
 }
 .no-mq footer.wrap .footer-bottom .footer-info {
-  -sgs-span-settings: ("span": 3, "location": 4, "grid": 12, "gutter": 0.33333, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+  -sgs-span-settings: ("span": 3, "location": 3, "grid": 12, "gutter": 0.33333, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
   width: 23.40426%;
   float: left;
   margin-right: -100%;
-  margin-left: 25.53191%;
+  margin-left: 17.02128%;
   clear: none;
 }
 .no-mq footer.wrap .footer-bottom .footer-right {
-  -sgs-span-settings: ("span": 6, "location": 7, "grid": 12, "gutter": 0.33333, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
-  width: 48.93617%;
+  -sgs-span-settings: ("span": 7, "location": 6, "grid": 12, "gutter": 0.33333, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+  width: 57.44681%;
   float: right;
   margin-left: 0;
   margin-right: 0;
   clear: none;
+  text-align: right;
 }
 
 .header-wrapper {
