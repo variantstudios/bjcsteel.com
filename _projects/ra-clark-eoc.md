@@ -8,6 +8,7 @@ general_contractor: "Roche Constructors (Greeley, CO)"
 architect: "Hauser Architects (Loveland, CO)"
 project_square_footage: "1,800 & 3,000"
 building_manufacturer: "Ceco Building Systems"
+completion_date: 2016-12-31 01:00:00
 photo_gallery:
   - thumbnail_image_path: "/assets/images/projects/small/Blackhawk-EOC-A.jpg"
     large_image_path: "/assets/images/projects/large/Blackhawk-EOC-A.jpg"
