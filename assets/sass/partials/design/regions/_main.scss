@@ -8,7 +8,7 @@
 }
 .default-content-wrapper {
   @include breakpoint($tablet, $no-query: '.no-mq') {
-    margin-top: 13em !important;
+    margin-top: 16em !important;
   }
 }
 .page-header {

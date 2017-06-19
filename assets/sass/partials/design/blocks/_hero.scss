@@ -1,6 +1,6 @@
 .hero {
 	@include breakpoint($tablet, $no-query: ".no-mq") {
-		height: 378px;
+		height: 475px;
 		background: #000 !important;
 		position: absolute;
 		top: 0;
