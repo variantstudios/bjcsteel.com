@@ -35,7 +35,7 @@ layout: default
       {% for item in site.projects %}
         {% if forloop.first %}
           <div class="latest-project">
-            <h5>Latest Project.</h5>
+            <h5>Featured Project.</h5>
             <h6><a href="{{ item.url }}">{{ item.title }}</a></h6>
             <figure> 
             {% for photo in item.photo_gallery limit:1 %}
