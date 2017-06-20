@@ -1,1 +1,6 @@
 # /old_file.html /new_file.html
+/contact.aspx /contact/
+/testimonials.aspx /
+/projects.aspx /projects/
+/about-us.aspx /about/
+/view-page.aspx /projects/
