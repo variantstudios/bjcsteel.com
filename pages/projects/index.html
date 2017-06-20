@@ -11,7 +11,7 @@ layout: page
 ---
 <div class="editable"></div>
 <div class="project-selection">
-  {% assign items = paginator.posts  %}
+  {% assign items = (paginator.posts | sort: 'completion_date') | reverse  %} 
   {% for item in items %}
     <article class="project">
       <a href="{{ item.url }}">

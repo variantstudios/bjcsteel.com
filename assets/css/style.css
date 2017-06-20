@@ -1586,9 +1586,6 @@ main, header, footer, section, aside {
 .third ul {
   list-style-type: none;
 }
-.third a {
-  display: inline-block;
-}
 .third .latest-project {
   padding: 0 1.5em;
 }

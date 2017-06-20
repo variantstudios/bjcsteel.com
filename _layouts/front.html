@@ -32,27 +32,27 @@ layout: default
           </li>
         {% endfor %}
       </ul>
-      {% for item in site.projects %}
-        {% if forloop.first %}
+      {% assign featuedProject = (site.projects | sort: 'completion_date') | reverse  %}
+      {% for project in featuedProject limit:1 %}
           <div class="latest-project">
             
             <figure> 
-            {% for photo in item.photo_gallery limit:1 %}
-              <a href="{{ item.url }}"><img src="{{ photo.thumbnail_image_path }}" alt="{{ item.title }}"></a>
+            {% for photo in project.photo_gallery limit:1 %}
+              <a href="{{ project.url }}"><img src="{{ photo.thumbnail_image_path }}" alt="{{ project.title }}"></a>
               {% endfor %}
               <figcaption>
-              <h6><a href="{{ item.url }}">{{ item.title }}</a></h6>
-                <p><b>Location: </b>{{ item.location }}</p>
-                <p><b>Owner: </b>{{ item.owner }}</p>
-                <p><b>Size: </b>{{ item.square_feet }} sq ft</p>
-                <p><b>General Contractor: </b>{{ item.contractor_name }}</p>
-                <p><b>Building Manufacturer: </b>{{ item.building_manufacturer }}</p>
-                <div class="proj-link"><a href="{{ item.url }}">More Info.</a></div>
+              <h6><a href="{{ project.url }}">{{ project.title }}</a></h6>
+                <p><b>Location: </b>{{ project.location }}</p>
+                <p><b>Owner: </b>{{ project.owner }}</p>
+                <p><b>Size: </b>{{ project.project_square_footage }} sq ft</p>
+                <p><b>General Contractor: </b>{{ project.general_contractor }}</p>
+                <p><b>Building Manufacturer: </b>{{ project.building_manufacturer }}</p>
+                <div class="proj-link"><a href="{{ project.url }}">More Info.</a></div>
               </figcaption>
             </figure>
           </div>
           {% break %}
-        {% endif %}
+       
       {% endfor %}
       <p><a class="all-link" href="{{page.section_three.link}}">{{page.section_three.link_text}}</a></p>
     </div>
