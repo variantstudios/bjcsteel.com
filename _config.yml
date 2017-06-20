@@ -3,7 +3,7 @@ title: Big Johnson Construction
 email: team@variantstudios.com
 description:
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://beta.bjcsteel.com" # the base hostname & protocol for your site
+url: "http://www.bjcsteel.com" # the base hostname & protocol for your site
 #timezone: America/Denver
 version: "3.2.1" # the version of jekyll
 
@@ -55,6 +55,6 @@ cloudinaryurl: ""
 typekit: "des8ryp"
 
 # Google Analytics - What site isn't using it?!
-google_analytics_tracking_id: ""
+google_analytics_tracking_id: "UA-33015432-12"
 
 exclude: ["readme.md", "vendor","node_modules","package.json", "package-lock.json","Gemfile","gulpfile.js","*.scss"]
