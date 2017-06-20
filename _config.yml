@@ -25,8 +25,8 @@ pagination:
   permalink: '/:num/'
   title: ':title - page :num'
   limit: 0
-  sort_field: 'title'
-  sort_reverse: false
+  sort_field: 'completion_date'
+  sort_reverse: true
   # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
   debug: true
   # The default document collection to paginate if nothing is specified ('posts' is default)
@@ -46,6 +46,7 @@ defaults:
       layout: project
       title:
       header_image_path: /assets/images/headers/projects.jpg
+      completion_date: 
 
 # Cloudinary URL - something like: https://res.cloudinary.com/domain-com/
 cloudinaryurl: ""
