@@ -20,7 +20,20 @@ layout: default
     <article class="proj-text">
       <p>{{ page.content }}</p>
     </article>
+
     <footer>
+      {% if page.video_gallery[0].youtube_url != nil %}
+        <article class="video-gallery">
+          <h3>Video Gallery:</h3>
+          {% for item in page.video_gallery %}
+            <div class="youtube-video">
+              <iframe width="100%" height="315" src="https://www.youtube.com/embed/{{item.youtube_url}}" frameborder="0" allowfullscreen></iframe>
+            </div>
+          {% endfor %}
+        </article>
+      {% endif %}
+
+
       {% if page.photo_gallery.size > 1 %}
         <article class="proj-gallery">
           <h4>Photo Gallery:</h4>
