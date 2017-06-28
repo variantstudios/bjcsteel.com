@@ -44,9 +44,6 @@ defaults:
       type: projects
     values:
       layout: project
-      title:
-      header_image_path: /assets/images/headers/projects.jpg
-      completion_date: 
 
 # Cloudinary URL - something like: https://res.cloudinary.com/domain-com/
 cloudinaryurl: ""
