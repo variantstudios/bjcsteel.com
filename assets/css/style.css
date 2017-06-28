@@ -1966,6 +1966,23 @@ ul.pager .right {
   float: right;
 }
 
+.youtube-video {
+  display: block;
+  width: 100%;
+}
+@media (min-width: 60em) {
+  .youtube-video {
+    display: inline-block;
+    width: 48%;
+    margin-right: 1%;
+  }
+}
+.no-mq .youtube-video {
+  display: inline-block;
+  width: 48%;
+  margin-right: 1%;
+}
+
 .team-wrap {
   margin-top: 1em;
 }

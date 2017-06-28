@@ -140,3 +140,13 @@ ul.pager {
     float: right;
   }
 }
+
+.youtube-video {
+  display: block;
+  width: 100%;
+   @include breakpoint($tablet, $no-query: '.no-mq') {
+      display: inline-block;
+      width: 48%;
+      margin-right: 1%;
+   }
+}

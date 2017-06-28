@@ -1,1 +1,1 @@
-$(document).ready(function(){$("body.contact").length>0&&"true"==function(){for(var t=window.location.search.split("&"),n=0;n<t.length;n++)return t[n].split("=")[1]}()&&$("#contact-message").html("<span><h3>Thank you. Your message has been sent. We will contact you shortly.</h3></span>")});
+function queryString(){for(var o=window.location.search.split("&"),t=0;t<o.length;t++)return o[t].split("=")[1]}$("body").hasClass("contact")&&("true"==queryString()?($("#contact-message").show(),console.log("show")):($("#contact-message").hide(),console.log("hide")));
