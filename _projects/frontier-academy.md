@@ -21,4 +21,4 @@ _comments:
 ---
 
 
-BJC Furnished and erected.
+BJC Furnished and Erected.
