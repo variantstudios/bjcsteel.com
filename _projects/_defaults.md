@@ -6,7 +6,7 @@ general_contractor:
 architect: 
 project_square_footage: 
 building_manufacturer: 
-completion_date: 
+completion_date: 2000-01-01 01:00:00
 video_gallery:
   - youtube_url: 
 photo_gallery:
