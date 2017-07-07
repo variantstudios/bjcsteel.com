@@ -6,7 +6,7 @@ general_contractor: FCI Constructors
 architect: 'Hord Coplan Macht (Denver, CO)'
 project_square_footage: '8,780'
 building_manufacturer: American Buildings Company
-completion_date:
+completion_date:  2000-01-01 01:00:00
 video_gallery:
   - youtube_url:
 photo_gallery:
