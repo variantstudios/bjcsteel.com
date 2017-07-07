@@ -1,11 +1,11 @@
 ---
-title: Frontier Academy
-location:
-owner:
-general_contractor:
-architect:
-project_square_footage:
-building_manufacturer:
+title: Elementary Gymnasium Expansion
+location: 'Greeley, CO'
+owner: Frontier Academy
+general_contractor: FCI Constructors
+architect: 'Hord Coplan Macht (Denver, CO)'
+project_square_footage: '8,780'
+building_manufacturer: American Buildings Company
 completion_date:
 video_gallery:
   - youtube_url:
