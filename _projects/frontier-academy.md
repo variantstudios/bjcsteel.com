@@ -12,6 +12,8 @@ video_gallery:
 photo_gallery:
   - thumbnail_image_path: /assets/images/frontier-a307x230.jpg
     large_image_path: /assets/images/frontier-a800x600.jpg
+  - thumbnail_image_path: /assets/images/frontier-b320-230.jpg
+    large_image_path: /assets/images/frontier-b800x600.jpg
 header_image_path: /assets/images/headers/projects.jpg
 _comments:
   completion_date: The completion date is REQUIRED.
