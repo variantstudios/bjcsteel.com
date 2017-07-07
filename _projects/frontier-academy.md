@@ -10,8 +10,8 @@ completion_date:
 video_gallery:
   - youtube_url:
 photo_gallery:
-  - thumbnail_image_path: /assets/images/frontier-a.JPG
-    large_image_path: /assets/images/frontier-a.JPG
+  - thumbnail_image_path: /assets/images/frontier-a307x230.jpg
+    large_image_path: /assets/images/frontier-a800x600.jpg
 header_image_path: /assets/images/headers/projects.jpg
 _comments:
   youtube_url: "Use the youtube video's ID: For example if the video's URL is https://www.youtube.com/watch?v=p1H0gAVpsD4 the ID is 'p1H0gAVpsD4'."
