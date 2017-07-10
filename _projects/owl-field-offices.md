@@ -10,8 +10,8 @@ completion_date: 2016-05-01 00:00:00
 video_gallery:
   - youtube_url:
 photo_gallery:
-  - thumbnail_image_path:
-    large_image_path:
+  - thumbnail_image_path: /assets/images/owl-a320x180.jpg
+    large_image_path: /assets/images/owl-a850x600.jpg
 header_image_path: /assets/images/headers/projects.jpg
 _comments:
   completion_date: The completion date is REQUIRED.
@@ -21,3 +21,4 @@ _comments:
 ---
 
 
+BJC Furnished and erected identical buildings at two separate sites.
