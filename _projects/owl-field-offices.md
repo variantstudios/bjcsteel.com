@@ -1,12 +1,12 @@
 ---
 title: OWL Field Offices
-location:
-owner:
-general_contractor:
-architect:
-project_square_footage:
-building_manufacturer:
-completion_date: 2000-01-01 01:00:00
+location: 'Bill, WY & Gillete, WY'
+owner: Oilfield Water Logistics
+general_contractor: Owner Self Performed
+architect: n/a
+project_square_footage: '1,560 each building'
+building_manufacturer: Ceco Building Systems
+completion_date: 2016-05-01 00:00:00
 video_gallery:
   - youtube_url:
 photo_gallery:
@@ -19,3 +19,5 @@ _comments:
   thumbnail_image_path: The image should be a jpg scaled and cropped to 320px wide by 230px tall.
   large_image_path: The image should be a jpg scaled and cropped to 850px wide by 600px tall.
 ---
+
+
