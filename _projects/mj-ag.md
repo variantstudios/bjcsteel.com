@@ -12,6 +12,8 @@ video_gallery:
 photo_gallery:
   - thumbnail_image_path: /assets/images/mj-ag-a300x230.jpg
     large_image_path: /assets/images/mj-ag-a800x600.jpg
+  - thumbnail_image_path: /assets/images/mj-ag-b307x230.jpg
+    large_image_path: /assets/images/mj-ag-b800x600.jpg
 header_image_path: /assets/images/headers/projects.jpg
 _comments:
   completion_date: The completion date is REQUIRED.
