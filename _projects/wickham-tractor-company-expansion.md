@@ -1,12 +1,12 @@
 ---
 title: Wickham Tractor Company Expansion
-location:
-owner:
-general_contractor:
-architect:
-project_square_footage:
-building_manufacturer:
-completion_date: 2000-01-01 01:00:00
+location: 'Sterling, CO'
+owner: Wickham Tractor Company
+general_contractor: Big Johnson Construction
+architect: n/a
+project_square_footage: '6,000'
+building_manufacturer: Ceco Building Systems
+completion_date: 2016-02-01 00:00:00
 video_gallery:
   - youtube_url:
 photo_gallery:
@@ -19,3 +19,6 @@ _comments:
   thumbnail_image_path: The image should be a jpg scaled and cropped to 320px wide by 230px tall.
   large_image_path: The image should be a jpg scaled and cropped to 850px wide by 600px tall.
 ---
+
+
+BJC full general contracted addition to existing pre-engineered building.
