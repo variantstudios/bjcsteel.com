@@ -21,4 +21,4 @@ _comments:
 ---
 
 
-BJC Furnished and erected.
+BJC Full general contracted furnished and erected project.
