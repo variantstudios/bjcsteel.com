@@ -10,8 +10,8 @@ completion_date: 2016-02-01 00:00:00
 video_gallery:
   - youtube_url:
 photo_gallery:
-  - thumbnail_image_path:
-    large_image_path:
+  - thumbnail_image_path: /assets/images/wtc-sterling-a307x230.jpg
+    large_image_path: /assets/images/wtc-sterling-a800x600.jpg
 header_image_path: /assets/images/headers/projects.jpg
 _comments:
   completion_date: The completion date is REQUIRED.
