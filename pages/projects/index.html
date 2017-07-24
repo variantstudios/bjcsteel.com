@@ -8,7 +8,7 @@ pagination:
   enabled: true
   collection: projects
 layout: page
-path: "pages/projects/index.html"
+# path: "pages/projects/index.html"
 ---
 <div class="editable"></div>
 <div class="project-selection">
@@ -37,27 +37,15 @@ path: "pages/projects/index.html"
 
 <!-- Pagination links -->
 {% if paginator.total_pages > 1 %}
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-  {% else %}
-    <span>&laquo; Prev</span>
-  {% endif %}
+    {% if paginator.total_pages > 1 %}
+  <div class="pagination clearfix">
+      {% if paginator.previous_page %}
+          <a class="prev"  href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Projects</a>
+      {% endif %}
 
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <em>{{ page }}</em>
-    {% elsif page == 1 %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-    {% else %}
-      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-    {% endif %}
-  {% endfor %}
-
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-  {% else %}
-    <span>Next &raquo;</span>
+      {% if paginator.next_page %}
+          <a class="next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Past Projects &rarr;</a>
+      {% endif %}
+  </div>
   {% endif %}
-</div>
 {% endif %}

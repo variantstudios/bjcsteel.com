@@ -141,6 +141,17 @@ ul.pager {
   }
 }
 
+.pagination {
+  margin: 2em 0 0 0;
+  a.next {
+    float: right;
+  }
+  a.prev {
+      float: left;
+  }
+}
+
+
 .youtube-video {
   display: block;
   width: 100%;
