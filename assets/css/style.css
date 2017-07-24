@@ -1966,6 +1966,16 @@ ul.pager .right {
   float: right;
 }
 
+.pagination {
+  margin: 2em 0 0 0;
+}
+.pagination a.next {
+  float: right;
+}
+.pagination a.prev {
+  float: left;
+}
+
 .youtube-video {
   display: block;
   width: 100%;
