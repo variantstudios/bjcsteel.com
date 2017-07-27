@@ -10,10 +10,12 @@ completion_date: 2017-03-01 00:00:00
 video_gallery:
   - youtube_url:
 photo_gallery:
-  - thumbnail_image_path: /assets/images/crc-a307x230.jpg
-    large_image_path: /assets/images/crc-a800x600.jpg
+  - thumbnail_image_path:
+    large_image_path: /assets/images/crc1.jpg
   - thumbnail_image_path: /assets/images/crc-b800x600.jpg
     large_image_path: /assets/images/crc-b800x600.jpg
+  - thumbnail_image_path:
+    large_image_path: /assets/images/crc2.jpg
 header_image_path: /assets/images/headers/projects.jpg
 _comments:
   completion_date: The completion date is REQUIRED.
