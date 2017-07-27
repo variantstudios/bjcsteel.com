@@ -11,11 +11,11 @@ video_gallery:
   - youtube_url:
 photo_gallery:
   - thumbnail_image_path:
+    large_image_path: /assets/images/crc2.jpg
+  - thumbnail_image_path:
     large_image_path: /assets/images/crc1.jpg
   - thumbnail_image_path: /assets/images/crc-b800x600.jpg
     large_image_path: /assets/images/crc-b800x600.jpg
-  - thumbnail_image_path:
-    large_image_path: /assets/images/crc2.jpg
 header_image_path: /assets/images/headers/projects.jpg
 _comments:
   completion_date: The completion date is REQUIRED.
