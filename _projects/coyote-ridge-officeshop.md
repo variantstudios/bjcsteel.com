@@ -12,7 +12,7 @@ video_gallery:
 photo_gallery:
   - thumbnail_image_path: /assets/images/crc2.jpg
     large_image_path: /assets/images/crc2.jpg
-  - thumbnail_image_path:
+  - thumbnail_image_path: /assets/images/crc1.jpg
     large_image_path: /assets/images/crc1.jpg
   - thumbnail_image_path: /assets/images/crc-b800x600.jpg
     large_image_path: /assets/images/crc-b800x600.jpg
