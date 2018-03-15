@@ -1886,9 +1886,6 @@ header.front-header {
   font-size: 1rem;
   padding: 5px;
 }
-.project footer .proj-gallery {
-  text-align: center;
-}
 .project footer .proj-gallery figure {
   -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
           box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
@@ -1909,8 +1906,8 @@ header.front-header {
   padding: 0;
 }
 .project footer .proj-gallery figure:hover {
-  -webkit-box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
-          box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
   top: -1px;
 }
 .project footer .proj-gallery figure:hover img {
