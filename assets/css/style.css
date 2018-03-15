@@ -1886,31 +1886,32 @@ header.front-header {
   font-size: 1rem;
   padding: 5px;
 }
+.project footer .proj-gallery {
+  text-align: center;
+}
 .project footer .proj-gallery figure {
-  width: 265px;
-  height: 190px;
-  overflow: hidden;
   -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
           box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
   margin: 0 1em 1em 0;
   display: inline-block;
-  -webkit-transition: -webkit-box-shadow .2s ease-in;
-  transition: -webkit-box-shadow .2s ease-in;
-  transition: box-shadow .2s ease-in;
-  transition: box-shadow .2s ease-in, -webkit-box-shadow .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  top: 0px;
+  position: relative;
 }
 .project footer .proj-gallery figure img {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   background: #e4e4e4;
-  -webkit-transition: height .5s ease-in-out;
-  transition: height .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
   padding: 0;
 }
 .project footer .proj-gallery figure:hover {
   -webkit-box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
           box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+  top: -1px;
 }
 .project footer .proj-gallery figure:hover img {
   height: 105%;
