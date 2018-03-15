@@ -87,7 +87,6 @@
   }
   footer {
     .proj-gallery { //265x190
-      text-align: center;
       figure {
         // width: 265px;
         // height: 190px;
@@ -106,7 +105,7 @@
           padding: 0;
         }
         &:hover {
-          box-shadow: 2px 4px 10px rgba($black, .3);
+          box-shadow: 2px 4px 10px rgba($black, .5);
           top: -1px;
           img {
             height: 105%;
