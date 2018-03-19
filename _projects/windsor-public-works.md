@@ -5,7 +5,7 @@ location: 'Windsor, CO'
 owner: Town of Windsor
 general_contractor: FCI Constructors
 architect: 'Infusion Architects, LLC (Loveland, CO)'
-project_square_footage:
+project_square_footage: 'Six buildings totaling 46,355'
 building_manufacturer: American Buildings Company
 completion_date: 2017-11-16 00:00:00
 video_gallery:
