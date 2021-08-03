@@ -30,3 +30,4 @@ _comments:
   large_image_path: The image should be a jpg scaled and cropped to 850px wide by 600px tall.
 ---
 
+![](/assets/images/thumbnail-7.jpeg){: width="2069" height="1552"}
