@@ -12,7 +12,7 @@ video_gallery:
 photo_gallery:
   - thumbnail_image_path:
     large_image_path: /assets/images/thumbnail-1.jpeg
-  - thumbnail_image_path: /assets/images/thumbnail-8.jpeg
+  - thumbnail_image_path: /assets/images/thumbnail-9.jpeg
     large_image_path:
 header_image_path: /assets/images/projects.jpg
 _comments:
