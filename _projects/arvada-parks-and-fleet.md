@@ -18,6 +18,8 @@ photo_gallery:
     large_image_path: /assets/images/thumbnail-4.jpeg
   - thumbnail_image_path: /assets/images/thumbnail-5.jpeg
     large_image_path:
+  - thumbnail_image_path: /assets/images/thumbnail-6.jpeg
+    large_image_path:
 header_image_path: /assets/images/thumbnail.jpeg
 _comments:
   completion_date: The completion date is REQUIRED.
