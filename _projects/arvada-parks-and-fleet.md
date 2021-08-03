@@ -11,7 +11,7 @@ video_gallery:
   - youtube_url:
 photo_gallery:
   - thumbnail_image_path: /assets/images/thumbnail-2.jpeg
-    large_image_path:
+    large_image_path: /assets/images/thumbnail-1.jpeg
 header_image_path: /assets/images/projects.jpg
 _comments:
   completion_date: The completion date is REQUIRED.
