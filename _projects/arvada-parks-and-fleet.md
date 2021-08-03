@@ -10,15 +10,7 @@ completion_date: 2020-11-30 00:00:00
 video_gallery:
   - youtube_url:
 photo_gallery:
-  - thumbnail_image_path:
-    large_image_path: /assets/images/thumbnail-1.jpeg
   - thumbnail_image_path: /assets/images/thumbnail-2.jpeg
-    large_image_path:
-  - thumbnail_image_path: /assets/images/thumbnail-4.jpeg
-    large_image_path: /assets/images/thumbnail-4.jpeg
-  - thumbnail_image_path: /assets/images/thumbnail-5.jpeg
-    large_image_path:
-  - thumbnail_image_path: /assets/images/thumbnail-6.jpeg
     large_image_path:
 header_image_path: /assets/images/projects.jpg
 _comments:
@@ -30,4 +22,3 @@ _comments:
   large_image_path: The image should be a jpg scaled and cropped to 850px wide by 600px tall.
 ---
 
-![](/assets/images/thumbnail-7.jpeg){: width="2069" height="1552"}
