@@ -1,16 +1,52 @@
 - name: Abe Johnson
   position: President
-  bio: 'Having grown up east of Colorado Springs, CO, Abe has focused his entire career on the pre-engineered metal building industry. Starting as a general laborer on an erection crew, Abe traveled all across the country gaining valuable knowledge of the craft. Showing a natural aptitude and great drive for perfection, Abe was soon in charge of his own crew and eventually broke out on his own to begin Big Johnson Construction in 2000. From then on it has nothing but growth for him and the company. Abe has become a well-seasoned and respectable business owner within the pre-engineered industry along with other many other venues; serving on various advisory board and councils dedicated to making our industry better.'
-  image_path: /assets/images/team/A_Johnson.jpg
+  bio: >-
+    Having grown up east of Colorado Springs, CO, Abe has focused his entire
+    career on the pre-engineered metal building industry. Starting as a general
+    laborer on an erection crew, Abe traveled all across the country gaining
+    valuable knowledge of the craft. Showing a natural aptitude and great drive
+    for perfection, Abe was soon in charge of his own crew and eventually broke
+    out on his own to begin Big Johnson Construction in 2000. From then on it
+    has nothing but growth for him and the company. Abe has become a
+    well-seasoned and respectable business owner within the pre-engineered
+    industry along with other many other venues; serving on various advisory
+    board and councils dedicated to making our industry better.
+  image_path: /assets/images/abe-head-shot.png
 - name: Trevor Fehseke
-  position: 'Vice President of Sales & Marketing'
-  bio: 'As a native Coloradoan and graduate of the University of Northern Colorado, Trevor has spent almost 15 years specifically working in the pre-engineered metal building industry and has been on all sides of the “desk” when it comes to experience. Having served as a Project Manager for a regional building manufacturer and District Sales Manager for a national building component vendor, he understands how to effectively propose, sell and manage all aspects of a building project; ultimately saving customers time and money dealing with common issues that plague the pre-engineered process.'
+  position: Vice President of Sales & Marketing
+  bio: >-
+    As a native Coloradoan and graduate of the University of Northern Colorado,
+    Trevor has spent almost 15 years specifically working in the pre-engineered
+    metal building industry and has been on all sides of the “desk” when it
+    comes to experience. Having served as a Project Manager for a regional
+    building manufacturer and District Sales Manager for a national building
+    component vendor, he understands how to effectively propose, sell and manage
+    all aspects of a building project; ultimately saving customers time and
+    money dealing with common issues that plague the pre-engineered process.
   image_path: /assets/images/team/T_Fehseke.jpg
 - name: Michael Cain
-  position: 'Operations Manager'
-  bio: "A graduate of the University of Nebraska, Michael has been a part of the Big Johnson Construction team since 2010. New to the industry at his time of hire, Mike quickly grasped the concepts of pre-engineered metal building erection and has immersed himself in learning all he can of the processes comprising our craft. Over the years with the company, Mike has gained valuable experience working on a multitude of projects with varying complexities. Mike has also taken leadership in developing and managing the company's crane installation division, serving multiple manufacturers throughout the Rocky Mountain region. Outside of work, Mike loves spending his down time doing anything with his wife and two kids."
+  position: Operations Manager
+  bio: >-
+    A graduate of the University of Nebraska, Michael has been a part of the Big
+    Johnson Construction team since 2010. New to the industry at his time of
+    hire, Mike quickly grasped the concepts of pre-engineered metal building
+    erection and has immersed himself in learning all he can of the processes
+    comprising our craft. Over the years with the company, Mike has gained
+    valuable experience working on a multitude of projects with varying
+    complexities. Mike has also taken leadership in developing and managing the
+    company's crane installation division, serving multiple manufacturers
+    throughout the Rocky Mountain region. Outside of work, Mike loves spending
+    his down time doing anything with his wife and two kids.
   image_path: /assets/images/team/M_Cain.jpg
 - name: Adam Vocke
-  position: 'Safety Manager'
-  bio: 'An electrician by trade from southeastern Colorado, Adam Joined Big Johnson Construction in 2012 as an onsite safety manager for a multi-million-dollar project in Oklahoma. As the full-time Safety Manager for Big Johnson Construction, Adam and his team have been instrumental in updating, creating and implement many of the safety policies currently in place. Adam logs many miles annually visiting our various crews ensuring all safety protocols set in place are being practiced, so there is a good chance you will see him onsite at one of your jobs.'
+  position: Safety Manager
+  bio: >-
+    An electrician by trade from southeastern Colorado, Adam Joined Big Johnson
+    Construction in 2012 as an onsite safety manager for a multi-million-dollar
+    project in Oklahoma. As the full-time Safety Manager for Big Johnson
+    Construction, Adam and his team have been instrumental in updating, creating
+    and implement many of the safety policies currently in place. Adam logs many
+    miles annually visiting our various crews ensuring all safety protocols set
+    in place are being practiced, so there is a good chance you will see him
+    onsite at one of your jobs.
   image_path: /assets/images/team/A_Vocke.jpg
