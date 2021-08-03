@@ -5,13 +5,15 @@ owner: 'City of Arvada '
 general_contractor: Big Johnson Construction (Fort Morgan, CO)
 architect: n/a
 project_square_footage: '41,275'
-building_manufacturer:
-completion_date: 2000-01-01 01:00:00
+building_manufacturer: 'American Buildings Company '
+completion_date: 2020-11-30 00:00:00
 video_gallery:
   - youtube_url:
 photo_gallery:
   - thumbnail_image_path:
     large_image_path:
+  - thumbnail_image_path: /assets/images/thumbnail-2.jpeg
+    large_image_path: /assets/images/thumbnail.jpeg
 header_image_path: /assets/images/headers/projects.jpg
 _comments:
   completion_date: The completion date is REQUIRED.
@@ -21,3 +23,4 @@ _comments:
   thumbnail_image_path: The image should be a jpg scaled and cropped to 320px wide by 230px tall.
   large_image_path: The image should be a jpg scaled and cropped to 850px wide by 600px tall.
 ---
+
