@@ -1,5 +1,5 @@
 ---
-title: 'Fort Morgan filed House '
+title: 'Fort Morgan Field House '
 location: 'Fort Morgan '
 owner: 'City of Fort Morgan '
 general_contractor: 'Big Johnson Construction (Fort Morgan) '
@@ -23,3 +23,4 @@ _comments:
   thumbnail_image_path: The image should be a jpg scaled and cropped to 320px wide by 230px tall.
   large_image_path: The image should be a jpg scaled and cropped to 850px wide by 600px tall.
 ---
+
