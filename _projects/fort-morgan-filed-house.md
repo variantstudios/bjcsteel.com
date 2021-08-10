@@ -1,6 +1,6 @@
 ---
 title: 'Fort Morgan Field House '
-location: 'Fort Morgan '
+location: Fort Morgan, CO
 owner: 'City of Fort Morgan '
 general_contractor: 'Big Johnson Construction (Fort Morgan) '
 architect: n/a
