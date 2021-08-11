@@ -11,9 +11,7 @@ video_gallery:
   - youtube_url:
 photo_gallery:
   - thumbnail_image_path:
-    large_image_path: /assets/images/thumbnail-1.jpeg
-  - thumbnail_image_path:
-    large_image_path:
+    large_image_path: /assets/images/thumbnail-18.jpeg
   - thumbnail_image_path: /assets/images/thumbnail-11.jpeg
     large_image_path: /assets/images/thumbnail-11.jpeg
   - thumbnail_image_path:
