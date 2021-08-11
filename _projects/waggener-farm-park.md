@@ -14,6 +14,8 @@ photo_gallery:
     large_image_path:
   - thumbnail_image_path: /assets/images/thumbnail-13.jpeg
     large_image_path:
+  - thumbnail_image_path: /assets/images/thumbnail-14.jpeg
+    large_image_path:
 header_image_path: /assets/images/headers/projects.jpg
 _comments:
   completion_date: The completion date is REQUIRED.
@@ -23,3 +25,4 @@ _comments:
   thumbnail_image_path: The image should be a jpg scaled and cropped to 320px wide by 230px tall.
   large_image_path: The image should be a jpg scaled and cropped to 850px wide by 600px tall.
 ---
+
