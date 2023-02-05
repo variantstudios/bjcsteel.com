@@ -3,7 +3,7 @@ title: Big Johnson Construction
 email: team@variantstudios.com
 description:
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.bjcsteel.com" # the base hostname & protocol for your site
+url: "https://www.bjcsteel.com" # the base hostname & protocol for your site
 #timezone: America/Denver
 version: "3.2.1" # the version of jekyll
 
@@ -22,16 +22,15 @@ permalink: pretty
 pagination:
   enabled: true
   per_page: 4
-  permalink: '/:num/'
-  title: ':title - page :num'
+  permalink: "/:num/"
+  title: ":title - page :num"
   limit: 0
-  sort_field: 'completion_date'
+  sort_field: "completion_date"
   sort_reverse: true
   # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
   debug: true
   # The default document collection to paginate if nothing is specified ('posts' is default)
-  collection: 'projects'
-
+  collection: "projects"
 
 #Collections
 collections:
@@ -39,8 +38,7 @@ collections:
     output: true
 
 defaults:
-  -
-    scope:
+  - scope:
       type: projects
     values:
       layout: project
@@ -57,4 +55,14 @@ typekit: "des8ryp"
 # Google Analytics - What site isn't using it?!
 google_analytics_tracking_id: "UA-33015432-12"
 
-exclude: ["readme.md", "vendor","node_modules","package.json", "package-lock.json","Gemfile","gulpfile.js","*.scss"]
+exclude:
+  [
+    "readme.md",
+    "vendor",
+    "node_modules",
+    "package.json",
+    "package-lock.json",
+    "Gemfile",
+    "gulpfile.js",
+    "*.scss",
+  ]
