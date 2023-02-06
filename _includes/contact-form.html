@@ -1,13 +1,7 @@
-<!-- <div id="contact-message">
-    <h3>{{page.webform.thank_you_message}}</h3>
-</div> -->
-<!-- <form method="post" class="contact-form" data-netlify="true"> -->
-<!-- <input type="hidden" name="_to" value="{{page.webform.to}}">
-    <input type="hidden" name="_subject" action="#" value="{{page.webform.subject}}"> -->
 <form name="contact" method="post" class="contact-form" netlify-honeypot="bot-field" data-netlify="true">
-    <input type="hidden" name="_to" value="brent@variantstudios.com">
-    <input type="hidden" name="_subject" value="Big Johnson Construction: Contact Form">
-    <input type="text" name="_gotcha" style="display: none;">
+
+    <input type="hidden" id="subject" name="subject" value="Big Johnson Construction: Contact Form">
+
 
     <div class="webform-component">
         <label for="name">Name</label>
