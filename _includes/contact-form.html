@@ -1,9 +1,11 @@
-<div id="contact-message"><h3>{{page.webform.thank_you_message}}</h3></div>
-<form method="post" class="contact-form" action="/contact/?sent=true">
-  <input type="hidden" name="_to" value="{{page.webform.to}}">
-  <input type="hidden" name="_subject" value="{{page.webform.subject}}">
-  
-   <input type="text" name="_gotcha" style="display: none;">
+<div id="contact-message">
+    <h3>{{page.webform.thank_you_message}}</h3>
+</div>
+<form method="post" class="contact-form" action="/contact/?sent=true" netlify>
+    <input type="hidden" name="_to" value="{{page.webform.to}}">
+    <input type="hidden" name="_subject" value="{{page.webform.subject}}">
+
+    <input type="text" name="_gotcha" style="display: none;">
     <div class="webform-component">
         <label for="name">Name</label>
         <input type="text" name="name" id="name" required="">
@@ -16,8 +18,8 @@
         <label for="message">Message</label>
         <textarea id="message" name="message" rows="6"></textarea>
     </div>
-   <div class="g-recaptcha" data-sitekey="6LdFoyUUAAAAAOWh2lE6Fq_EOUjNs73maGw9DJsR"></div><br>
+    <div class="g-recaptcha" data-sitekey="6LdFoyUUAAAAAOWh2lE6Fq_EOUjNs73maGw9DJsR"></div><br>
     <br>
-    
+
     <input class="sendButton" type="submit" value="Send">
 </form>
