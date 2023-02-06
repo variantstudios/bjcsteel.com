@@ -1,10 +1,10 @@
 <!-- <div id="contact-message">
     <h3>{{page.webform.thank_you_message}}</h3>
 </div> -->
-<form method="post" class="contact-form" data-netlify="true">
-    <!-- <input type="hidden" name="_to" value="{{page.webform.to}}">
+<!-- <form method="post" class="contact-form" data-netlify="true"> -->
+<!-- <input type="hidden" name="_to" value="{{page.webform.to}}">
     <input type="hidden" name="_subject" action="#" value="{{page.webform.subject}}"> -->
-
+<form method="post" class="contact-form" netlify-honeypot="bot-field" data-netlify="true">
     <input type="hidden" name="_to" value="brent@variantstudios.com">
     <input type="hidden" name="_subject" value="Big Johnson Construction: Contact Form">
     <input type="text" name="_gotcha" style="display: none;">
@@ -24,6 +24,11 @@
     <!-- <div class="g-recaptcha" data-sitekey="6LdFoyUUAAAAAOWh2lE6Fq_EOUjNs73maGw9DJsR"></div><br> -->
     <br>
     <input type="hidden" name="form-name" value="contact">
+    <p style="display: none;">
+        <label>
+            Don’t fill this out if you’re human: <input name="bot-field" />
+        </label>
+    </p>
 
     <input class="sendButton" type="submit" value="Send">
 </form>
