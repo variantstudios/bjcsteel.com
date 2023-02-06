@@ -1,34 +1,20 @@
-<!-- <div id="contact-message">
-    <h3>{{page.webform.thank_you_message}}</h3>
-</div> -->
-<!-- <form method="post" class="contact-form" data-netlify="true"> -->
-<!-- <input type="hidden" name="_to" value="{{page.webform.to}}">
-    <input type="hidden" name="_subject" action="#" value="{{page.webform.subject}}"> -->
-<form method="post" class="contact-form" netlify-honeypot="bot-field" data-netlify="true">
-    <input type="hidden" name="_to" value="brent@variantstudios.com">
-    <input type="hidden" name="_subject" value="Big Johnson Construction: Contact Form">
-    <input type="text" name="_gotcha" style="display: none;">
-
-    <div class="webform-component">
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name" required="">
-    </div>
-    <div class="webform-component">
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" required="">
-    </div>
-    <div class="webform-component">
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="6"></textarea>
-    </div>
-    <!-- <div class="g-recaptcha" data-sitekey="6LdFoyUUAAAAAOWh2lE6Fq_EOUjNs73maGw9DJsR"></div><br> -->
-    <br>
-    <input type="hidden" name="form-name" value="contact">
-    <p style="display: none;">
-        <label>
-            Don’t fill this out if you’re human: <input name="bot-field" />
-        </label>
+<form name="contact" method="POST" data-netlify="true">
+    <p>
+        <label>Your Name: <input type="text" name="name" /></label>
     </p>
-
-    <input class="sendButton" type="submit" value="Send">
+    <p>
+        <label>Your Email: <input type="email" name="email" /></label>
+    </p>
+    <p>
+        <label>Your Role: <select name="role[]" multiple>
+                <option value="leader">Leader</option>
+                <option value="follower">Follower</option>
+            </select></label>
+    </p>
+    <p>
+        <label>Message: <textarea name="message"></textarea></label>
+    </p>
+    <p>
+        <button type="submit">Send</button>
+    </p>
 </form>
